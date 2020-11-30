@@ -1,0 +1,28 @@
+@font-face {
+      font-family:"Cyberverse";
+      src:url("../fonts/Cyberverse.eot?") format("eot"),
+          url("../fonts/Cyberverse.woff") format("woff"),
+          url("../fonts/Cyberverse.ttf") format("truetype"),
+          url("../fonts/Cyberverse.svg#Cyberverse") format("svg");
+      font-weight:100;
+      font-style:normal;}
+
+html {
+    background-color: #000;
+    height: 100vh;
+    width: 100vw;
+}
+.container {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.clock {
+    color: #f00;
+    font-family: 'Cyberverse', Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+}
