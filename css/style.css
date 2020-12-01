@@ -4,8 +4,9 @@
           url("../fonts/Cyberverse.woff") format("woff"),
           url("../fonts/Cyberverse.ttf") format("truetype"),
           url("../fonts/Cyberverse.svg#Cyberverse") format("svg");
-      font-weight:100;
-      font-style:normal;}
+      font-style:normal;
+      font-weight:100; 
+    }
 
 html {
     background-color: #000;
@@ -20,7 +21,7 @@ html {
 }
 
 .clock {
-    color: #f00;
+    color: #ff0011;
     font-family: 'Cyberverse', Arial, Helvetica, sans-serif;
     font-size: 5rem;
     height: 5rem;
